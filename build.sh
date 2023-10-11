@@ -1,0 +1,1 @@
+ docker build -t terraform_vmware:latest .
