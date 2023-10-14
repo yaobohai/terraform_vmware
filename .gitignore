@@ -1,2 +1,4 @@
+.envfile
 .terraform.lock.hcl
 .terraform/
+envfile
