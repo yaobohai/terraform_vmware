@@ -74,7 +74,7 @@ resource "vsphere_virtual_machine" "linux" {
       }
 
       ipv4_gateway = var.default_gw
-      dns_server_list = var.dns_list
+      dns_server_list = [var.dns_list]
     }
   }
 }

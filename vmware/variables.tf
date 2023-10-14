@@ -1,7 +1,5 @@
 variable "vsphere_server" {}
 
-variable "adminpassword" {}
-
 variable "vsphere_user" {}
 
 variable "vsphere_password" {}
@@ -18,9 +16,7 @@ variable "domain_name" {}
 
 variable "default_gw" {}
 
-variable "dns_list" { 
-    default = ["114.114.114.114"]
-}
+variable "dns_list" {}
 
 variable "template_name" {}
 
